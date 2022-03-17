@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f5c4c5;
+    font-family: 'Gothic A1', sans-serif;
+  }
+  .intro {
+    font-family: 'Tangerine', cursive;
+    font-size: 33px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+  .photo {
+    max-width: 250px;
+    max-height: 250px;
+    border-style: solid;
+    border-color: #90666d;
+   
+}
+
+.blocks {
+    background: rgb(248, 247, 241); 
+    outline: 1px solid #f5c4f5; 
+    border: 3px solid rgb(248, 247, 241);
+    max-width: min-content;
+    border-radius: 10px;
+    display: flex;
+    
+}
+
+.sizes {
+    width: 280px;
+    text-align: center;
+}
+
+
+.max-blocks {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 650px;
+}
+
+
